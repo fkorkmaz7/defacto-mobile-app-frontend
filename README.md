@@ -1,2 +1,3 @@
 # DeFacto1
-# First Page 
+# First Page designing 
+# Background Color settings
