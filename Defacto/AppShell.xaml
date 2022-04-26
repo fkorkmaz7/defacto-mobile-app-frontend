@@ -1,0 +1,897 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<Shell BackgroundImageSource="appIcon.png"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Defacto"
+    x:Class="Defacto.AppShell"
+       BackgroundColor="#2c2c2c"
+       ForegroundColor="White"
+       TitleColor="White"
+       DisabledColor="Red"
+       UnselectedColor="LightGray"
+       Shell.NavBarIsVisible="True"
+
+       >
+    
+    
+       
+       
+   
+    <TabBar >
+        
+   
+    
+       
+        
+        <Tab Title="Ana Sayfa" Icon="anasayfa.png">
+           
+            <ShellContent Title="Yeniler">
+            <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+  
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekceket.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınpantolon.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekayakkabi.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınyelek1.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekgomlek.HEIC"/>
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadındon1.HEIC"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="taki1.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="modest1.webp" />
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="taki3.HEIC" RotationY="180"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+
+                
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+            <ShellContent Title="Kadın">
+             <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+            
+                  <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="kadinkapak.png"/>
+
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="kadınpantolon.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="kadıntshirt.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="kadıntshirt2.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kadındon1.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kadındon2.HEIC"/>
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kadınkrop1.HEIC"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınkrop2.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınpantol1.HEIC" />
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınpantol2.HEIC" RotationY="180"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınyelek1.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınyelek2.HEIC" />
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="kadınyelek3.HEIC" RotationY="180"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+
+                
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+            <ShellContent Title="Erkek">
+            <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+                    <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="erkekkapak.png"/>
+
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="erkekceket2.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="erkekgomlek2.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="erkektshirt2.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="erkekceket.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="erkekceket2.HEIC"/>
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="erkekceket3.HEIC"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekgomlek.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekgomlek2.HEIC" />
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekgomlek3.HEIC" RotationY="180"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkektshirt2.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekpandtolon.HEIC" />
+                <ImageButton BackgroundColor="DarkGoldenrod" HeightRequest="450" WidthRequest="300" Aspect="AspectFill" Source="erkekpantolon2.HEIC" RotationY="180"/>
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+
+                
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+             <ShellContent Title="Çocuk">
+            <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+          <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="cocukkapak.png"/>
+        
+
+            <StackLayout Orientation="Vertical">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="cocuk2.JPG"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="cocuk3.JPG"/>
+                
+
+              
+            </StackLayout>
+
+
+   
+ 
+
+   
+
+ 
+                
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+             <ShellContent Title="Bebek">
+             <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+            <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="bebekkapak.png"/>
+
+
+
+      
+
+            <StackLayout Orientation="Vertical">
+                <ImageButton BackgroundColor="Aqua" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="cocuk4.JPG"/>
+
+              
+            </StackLayout>
+
+
+   
+  
+
+   
+    
+
+
+                
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+
+            </ShellContent>
+
+            <ShellContent Title="Ayakkabı">
+
+                <ContentPage BackgroundColor="#2c2c2c">
+                    
+             
+
+                <ScrollView>
+<StackLayout >
+   
+            <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="ayakkabikapak.png"/>
+
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="450" WidthRequest="425" Aspect="AspectFill" Source="erkekayakkabi.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="450" WidthRequest="425" Aspect="AspectFill" Source="erkekayakkabi2.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="450" WidthRequest="425" Aspect="AspectFill" Source="erkekayakkabi3.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kadınayakkabi.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kadınayakkabi2.HEIC"/>
+                
+
+                   
+                </StackLayout>
+                </ScrollView>
+                
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+            <ShellContent Title="Aksesuar">
+             <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+            <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="aksesuarkapak.png"/>
+
+
+
+            <StackLayout Orientation="Vertical">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="taki1.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="taki2.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="taki3.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="taki4.HEIC"/>
+              
+            </StackLayout>
+
+
+   
+ 
+
+   
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+             <ShellContent Title="Spor Giyim">
+           <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+            <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="sporgiyimkapak.png"/>
+
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="spor1.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="spor2.HEIC"/>
+               
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="spor3.HEIC"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="spor4.HEIC"/>
+               
+
+                   
+                </StackLayout>
+                </ScrollView>
+
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+
+            </ShellContent>
+
+             <ShellContent Title="İç Giyim - Pijama">
+           <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+  
+              <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="icgiyimkapak.png"/>
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="450" WidthRequest="425" Aspect="AspectFill" Source="icgiyim3.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="450" WidthRequest="425" Aspect="AspectFill" Source="icgiyim2.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="450" WidthRequest="425" Aspect="AspectFill" Source="icgiyim1.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    
+
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+             <ShellContent Title="Modest">
+    <ContentPage BackgroundColor="#2c2c2c">
+
+             
+
+                <ScrollView>
+<StackLayout >
+   
+            <ImageButton BackgroundColor="DarkOrange" HeightRequest="500" WidthRequest="425" Aspect="AspectFill" Source="kapalikapak.png"/>
+
+
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="kapali1.jpg"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="425" Aspect="AspectFill" Source="kapali2.jpg"/>
+                
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+    <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton BackgroundColor="Aquamarine" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kapali4.jpg"/>
+                <ImageButton BackgroundColor="Bisque" HeightRequest="450" WidthRequest="250" Aspect="AspectFill" Source="kapali3.jpg"/>
+               
+                   
+                </StackLayout>
+                </ScrollView>
+
+ 
+
+          
+                </StackLayout>
+
+
+
+                </ScrollView>
+
+            
+                </ContentPage>
+            </ShellContent>
+
+
+            </Tab>
+             <Tab Title="Kategoriler" Icon="kategori.png">
+           
+            <ShellContent Title="YENİLER" >
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="KADIN" >
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="ERKEK" >
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="ÇOCUK">
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="BEBEK">
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="AYAKKABI">
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="AKSESUAR">
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+                 <ShellContent Title="İÇ GİYİM - PİJAMA">
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+                    <SearchBar TranslationX="0" TranslationY="-10"
+           
+           FontFamily="Anton"
+           BackgroundColor="#2c2c2c"
+           Placeholder="Ürün, kategori ya da marka ara"
+           CancelButtonColor="White"
+           PlaceholderColor="#bdb3bd"
+           TextColor="#e9e9e9"
+           TextTransform="Lowercase"
+           FontSize="Medium"/>
+
+
+                </StackLayout>
+
+
+           
+                </ContentPage>
+            </ShellContent>
+
+
+
+
+
+            </Tab>
+             <Tab Title="Sepetim" Icon="çanta.png">
+           
+            <ShellContent >
+            <ContentPage >
+                <ScrollView>
+
+                    <StackLayout>
+                        <StackLayout BackgroundColor="#2c2c2c">
+                    <Label VerticalOptions="Center"
+                           Margin="0,225,0,0"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="white"
+                           FontAttributes="Bold"
+                        FontSize="25"
+                        Text="Sepetinizde Ürün Yok"/>
+
+                    <Label VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           TextColor="white"
+                        FontSize="15"
+                           FontAttributes="None"
+                        Text="Alışverişe hemen başla DeFacto'nun trend &#10;ürünlerini kaçırma"/>
+                    
+                    <Button Margin="0,20,0,0" HeightRequest="40" WidthRequest="350" VerticalOptions="Center" HorizontalOptions="Center" Text="Alışverişe Başla" BackgroundColor="White" TextColor="Black" >
+                        
+
+                    </Button>
+
+                    <Label
+                        Margin="5,50,0,0"
+                        FontAttributes="Bold"
+                        TextColor="White" Text="POPÜLER ÜRÜNLER" VerticalOptions="Center" HorizontalOptions="Start">
+
+                    </Label>
+
+                </StackLayout>
+
+                        <ScrollView Orientation="Horizontal">
+
+            <StackLayout BackgroundColor="#2c2c2c" Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="200" Aspect="AspectFill" Source="erkekceket.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="200" Aspect="AspectFill" Source="kadınpantolon.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="300" WidthRequest="200" Aspect="AspectFill" Source="erkekayakkabi.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+
+                    </StackLayout>
+
+                </ScrollView>
+                    
+                
+           
+                </ContentPage>
+            </ShellContent>
+
+            </Tab>
+         <Tab Title="Favorilerim" Icon="kalp.png">
+           
+            <ShellContent >
+            <ContentPage >
+
+                <ScrollView>
+                     <StackLayout BackgroundColor="#2c2c2c">
+
+                    <StackLayout>
+                        <Image Margin="0,190,0,5" Opacity="80" Source="kalpdeneme.png" HeightRequest="80" WidthRequest="80" >
+
+
+                    </Image>
+
+                    <Label
+                        
+                        VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           TextColor="white"
+                        FontSize="17"
+                          
+                           FontAttributes="Bold"
+                        Text="Favorilerinizde henüz ürün bulunmamaktadır"/>
+                    
+                    <Button Margin="0,20,0,0" HeightRequest="40" WidthRequest="350" VerticalOptions="Center" HorizontalOptions="Center" Text="Alışverişe devam et" BackgroundColor="White" TextColor="Black" >
+                        
+
+                    </Button>
+
+                    <Label
+                        Margin="5,50,0,0"
+                        FontAttributes="Bold"
+                        TextColor="White" Text="POPÜLER ÜRÜNLER" VerticalOptions="Center" HorizontalOptions="Start">
+
+                    </Label>
+
+                    </StackLayout>
+
+                          <ScrollView Orientation="Horizontal">
+
+            <StackLayout Orientation="Horizontal">
+                <ImageButton BackgroundColor="DarkOrange" HeightRequest="300" WidthRequest="200" Aspect="AspectFill" Source="erkekceket.HEIC"/>
+                 <ImageButton BackgroundColor="White" HeightRequest="300" WidthRequest="200" Aspect="AspectFill" Source="kadınpantolon.HEIC"/>
+                <ImageButton BackgroundColor="Aqua" HeightRequest="300" WidthRequest="200" Aspect="AspectFill" Source="erkekayakkabi.HEIC"/>
+
+              
+            </StackLayout>
+
+
+   
+  </ScrollView>
+
+                  </StackLayout>
+
+
+
+
+
+
+
+                  
+                </ScrollView>
+                
+           
+                </ContentPage>
+            </ShellContent>
+
+            </Tab>
+         <Tab Title="Hesabım" Icon="hesap.png">
+           
+            <ShellContent Title="Giriş Yap" >
+                
+            <ContentPage >
+
+                <StackLayout BackgroundColor="#2c2c2c">
+
+
+
+
+
+
+
+                </StackLayout>
+                
+           
+                
+            </ContentPage>
+                   
+            </ShellContent>
+
+             <ShellContent Title="Üye Ol"  >
+              
+
+                 <ContentPage BackgroundColor="#2c2c2c">
+
+
+
+                 </ContentPage>
+
+
+             </ShellContent>
+
+            </Tab>
+
+
+            
+
+    </TabBar>
+   
+        
+
+
+</Shell>

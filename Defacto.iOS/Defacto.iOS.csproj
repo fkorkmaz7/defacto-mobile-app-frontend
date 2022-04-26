@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A571D1A5-E97E-44E7-BF11-74D165E38E95}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Defacto.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Defacto.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <ProvisioningType>automatic</ProvisioningType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <InterfaceDefinition Include="Resources\LaunchScreen1.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Nuansa bunga-2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Nuansa bunga-3.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Nuansa bunga-4.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\giriş.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\giriş.imageset\giriş.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\appIcon.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\appIcon.imageset\appIcon.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Nuansa bunga.imageset\Nuansa bunga.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Nuansa bunga.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\first.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\first.imageset\first.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\ccc.imageset\ccc.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\ccc.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Defacto\Defacto.csproj">
+      <Project>{3FACEAB9-9057-4CD2-A71E-C63720C7306D}</Project>
+      <Name>Defacto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kategori.png" />
+    <BundleResource Include="Resources\çanta.png" />
+    <BundleResource Include="Resources\kalp.png" />
+    <BundleResource Include="Resources\hesap.png" />
+    <BundleResource Include="Resources\anasayfa.png" />
+    <BundleResource Include="Resources\erkektshirt.HEIC" />
+    <BundleResource Include="Resources\erkektshirt2.HEIC" />
+    <BundleResource Include="Resources\erkektshirt3.HEIC" />
+    <BundleResource Include="Resources\erkekpandtolon.HEIC" />
+    <BundleResource Include="Resources\erkekpantolon2.HEIC" />
+    <BundleResource Include="Resources\erkekgomlek.HEIC" />
+    <BundleResource Include="Resources\erkekgomlek2.HEIC" />
+    <BundleResource Include="Resources\erkekgomlek3.HEIC" />
+    <BundleResource Include="Resources\erkekceket.HEIC" />
+    <BundleResource Include="Resources\erkekceket2.HEIC" />
+    <BundleResource Include="Resources\erkekceket3.HEIC" />
+    <BundleResource Include="Resources\erkekayakkabi.HEIC" />
+    <BundleResource Include="Resources\erkekayakkabi2.HEIC" />
+    <BundleResource Include="Resources\erkekayakkabi3.HEIC" />
+    <BundleResource Include="Resources\kadınpantolon.HEIC" />
+    <BundleResource Include="Resources\kadıntshirt.HEIC" />
+    <BundleResource Include="Resources\kadıntshirt2.HEIC" />
+    <BundleResource Include="Resources\kadınayakkabi.HEIC" />
+    <BundleResource Include="Resources\kadınayakkabi2.HEIC" />
+    <BundleResource Include="Resources\kadınkrop1.HEIC" />
+    <BundleResource Include="Resources\kadınkrop2.HEIC" />
+    <BundleResource Include="Resources\kadınpantol1.HEIC" />
+    <BundleResource Include="Resources\kadınpantol2.HEIC" />
+    <BundleResource Include="Resources\kadınyelek1.HEIC" />
+    <BundleResource Include="Resources\kadınyelek2.HEIC" />
+    <BundleResource Include="Resources\kadınyelek3.HEIC" />
+    <BundleResource Include="Resources\kadındon1.HEIC" />
+    <BundleResource Include="Resources\kadındon2.HEIC" />
+    <BundleResource Include="Resources\taki4.HEIC" />
+    <BundleResource Include="Resources\taki3.HEIC" />
+    <BundleResource Include="Resources\taki2.HEIC" />
+    <BundleResource Include="Resources\taki1.HEIC" />
+    <BundleResource Include="Resources\modest1.webp" />
+    <BundleResource Include="Resources\aksesuarkapak.png" />
+    <BundleResource Include="Resources\ayakkabikapak.png" />
+    <BundleResource Include="Resources\bebekkapak.png" />
+    <BundleResource Include="Resources\cocuk1.JPG" />
+    <BundleResource Include="Resources\cocuk2.JPG" />
+    <BundleResource Include="Resources\cocuk3.JPG" />
+    <BundleResource Include="Resources\cocuk4.JPG" />
+    <BundleResource Include="Resources\cocukkapak.png" />
+    <BundleResource Include="Resources\erkekkapak.png" />
+    <BundleResource Include="Resources\icgiyim1.HEIC" />
+    <BundleResource Include="Resources\icgiyim2.HEIC" />
+    <BundleResource Include="Resources\icgiyim3.HEIC" />
+    <BundleResource Include="Resources\icgiyimkapak.png" />
+    <BundleResource Include="Resources\kadinkapak.png" />
+    <BundleResource Include="Resources\modestkapak.png" />
+    <BundleResource Include="Resources\spor1.HEIC" />
+    <BundleResource Include="Resources\spor2.HEIC" />
+    <BundleResource Include="Resources\spor3.HEIC" />
+    <BundleResource Include="Resources\spor4.HEIC" />
+    <BundleResource Include="Resources\sporgiyimkapak.png" />
+    <BundleResource Include="Resources\kapalikapak.png" />
+    <BundleResource Include="Resources\kapali1.jpg" />
+    <BundleResource Include="Resources\kapali2.jpg" />
+    <BundleResource Include="Resources\kapali3.jpg" />
+    <BundleResource Include="Resources\kapali4.jpg" />
+    <BundleResource Include="Resources\kalpdeneme.png" />
+    <BundleResource Include="Resources\simge.png" />
+    <BundleResource Include="Resources\giriş.png" />
+    <BundleResource Include="Resources\appIcon.png" />
+  </ItemGroup>
+</Project>
